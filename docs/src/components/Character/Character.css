@@ -1,0 +1,14 @@
+.character {
+    background: #fff;
+    border-radius: 2px;
+    height: 250px;
+    position: relative;
+    width: 325px;
+    text-align: left;
+}
+
+.image {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+  }

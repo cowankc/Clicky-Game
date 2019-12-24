@@ -3,7 +3,7 @@ import './App.css';
 import characters from './characters.json'
 import Character from './components/Character'
 import Score from './components/Score'
-import Container from './components/Container'
+import Container from './components/Container/Index'
 
 class App extends Component {
   state = {
@@ -18,7 +18,7 @@ class App extends Component {
         <Score score={this.state.score} topscore={this.state.topscore}>South Park Click Game</Score>
         {this.state.characters.map(character => (
           <Character
-            clickCount={this.clickCount}
+            // clickCount={this.clickCount}
             id={character.id}
             key={character.id}
             image={character.image}
