@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Kenny",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/KennyMcCormick.png",
+        "click": false
+    },
+    {
+        "id": 2,
+        "name": "Stan",
+        "image": "https://vignette.wikia.nocookie.net/southpark/images/a/a0/Hemp-stan.png/revision/latest?cb=20190411151108",
+        "click": false
+    },
+    {
+        "id": 3,
+        "name": "Kyle",
+        "image": "https://vignette.wikia.nocookie.net/southpark/images/9/95/Kyle-broflovski.png/revision/latest?cb=20190411033301",
+        "click": false
+    },
+    {
+        "id": 4,
+        "name": "Eric",
+        "image": "https://cdn130.picsart.com/258403810011212.png?r1024x1024",
+        "click": false
+    },
+    {
+        "id": 5,
+        "name": "Butters",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/06/ButtersStotch.png",
+        "click": false
+    },
+    {
+        "id": 6,
+        "name": "Tweek",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/tweek-tweak.png",
+        "click": false
+    },
+    {
+        "id": 7,
+        "name": "Jimmy",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/jimmy-valmer.png",
+        "click": false
+    },
+    {
+        "id": 8,
+        "name": "Timmy",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/timmy-burch.png",
+        "click": false
+    },
+    {
+        "id": 9,
+        "name": "Cousin Kyle",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/kyle-schwartz.png",
+        "click": false
+    },
+    {
+        "id": 10,
+        "name": "Scott",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/scott-malkinson.png",
+        "click": false
+    },
+    {
+        "id": 11,
+        "name": "Token",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/token-black.png",
+        "click": false
+    },
+    {
+        "id": 12,
+        "name": "Craig",
+        "image": "https://vignette.wikia.nocookie.net/southpark/images/c/c2/Craig-tucker.png/revision/latest?cb=20160402121203",
+        "click": false
+    }
+]
