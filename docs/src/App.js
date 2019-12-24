@@ -12,6 +12,21 @@ class App extends Component {
     topscore: 0
   };
 
+  shuffle = (array) => {
+    let i = array.length - 1;
+    for (; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp; 
+    }
+    return array;
+  }
+
+  select = (id) => {
+    return 
+  }
+
   endGame = () => {
     if(this.state.score > this.state.topscore) {
       this.setState({topscore: this.state.score}, function () {
@@ -28,13 +43,15 @@ class App extends Component {
 
   clickCount = id => {
     const character = characters.find(el => el.id = id)
-    console.log(character)
+    console.log(id)
     if (character.click === false) {
       character.click = true;
       this.setState({score : this.state.score + 1}, function () {
         console.log(this.state.score);
       });
-    } else {
+      this.shuffle(characters);
+      return true;
+    } else if (character.click === true) {
       this.endGame();
     }
   }
@@ -43,11 +60,11 @@ class App extends Component {
     return (
       <Container>
         <Score score={this.state.score} topscore={this.state.topscore}>South Park Click Game</Score>
-        {this.state.characters.map((character, i) => (
+        {this.state.characters.map((character, index) => (
           <Character
             clickCount={this.clickCount}
             id={character.id}
-            key={i}
+            key={index}
             image={character.image}
             />
         ))}

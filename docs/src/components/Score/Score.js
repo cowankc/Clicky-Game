@@ -1,4 +1,5 @@
 import React from "react";
+import "./Score.css"
 
 const Score = props => (
     <div className="head">
