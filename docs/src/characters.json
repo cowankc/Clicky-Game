@@ -31,38 +31,38 @@
     },
     {
         "id": 6,
-        "name": "Tweek",
-        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/tweek-tweak.png",
+        "name": "Ike",
+        "image": "https://vignette.wikia.nocookie.net/southpark/images/f/f5/Ike_2.png/revision/latest?cb=20160402113234",
         "click": false
     },
     {
         "id": 7,
         "name": "Jimmy",
-        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/jimmy-valmer.png",
+        "image": "https://vignette.wikia.nocookie.net/southpark/images/0/09/The-bard.png/revision/latest?cb=20170531004820",
         "click": false
     },
     {
         "id": 8,
         "name": "Timmy",
-        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/timmy-burch.png",
+        "image": "https://vignette.wikia.nocookie.net/southpark/images/f/fd/Fast-travel-timmy.png/revision/latest?cb=20170531004631",
         "click": false
     },
     {
         "id": 9,
         "name": "Cousin Kyle",
-        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/kyle-schwartz.png",
+        "image": "https://vignette.wikia.nocookie.net/southpark/images/3/3c/Kyle-schwartz.png/revision/latest?cb=20170907194703",
         "click": false
     },
     {
         "id": 10,
         "name": "Scott",
-        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/scott-malkinson.png",
+        "image": "https://vignette.wikia.nocookie.net/southpark/images/5/5b/Latest-18.png/revision/latest?cb=20170531064341",
         "click": false
     },
     {
         "id": 11,
         "name": "Token",
-        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/token-black.png",
+        "image": "https://ubistatic19-a.akamaihd.net/resource/en-us/game/southpark/thefracturedbutwhole/spfbw-characters-teamfreedom-tupperware-day.png",
         "click": false
     },
     {
