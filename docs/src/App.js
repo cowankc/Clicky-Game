@@ -12,6 +12,8 @@ class App extends Component {
     topscore: 0
   };
 
+  //function for shuffling images after clicking
+
   shuffle = (array) => {
     let i = array.length - 1;
     for (; i > 0; i--) {
@@ -23,9 +25,7 @@ class App extends Component {
     return array;
   }
 
-  select = (id) => {
-    return 
-  }
+//function to record score and end game 
 
   endGame = () => {
     if(this.state.score > this.state.topscore) {
@@ -41,9 +41,11 @@ class App extends Component {
     return true;
   }
 
+  //function to keep track of character clicks 
+
   clickCount = id => {
-    const character = characters.find(el => el.id = id)
-    console.log(id)
+    const character = characters.find(el => el.id === id)
+    console.log(character)
     if (character.click === false) {
       character.click = true;
       this.setState({score : this.state.score + 1}, function () {
